@@ -7,7 +7,8 @@ from langchain_openai import OpenAIEmbeddings
 from langchain_text_splitters import CharacterTextSplitter
 from langchain_chroma import Chroma
 from fastapi import FastAPI
-
+import os
+import uvicorn
 app = FastAPI()
 
 import gradio as gr
@@ -111,3 +112,6 @@ with gr.Blocks(theme = gr.themes.Glass()) as dashboard:
 
 if __name__ == "__main__":
     dashboard.launch()
+    port = int(os.environ.get("PORT", 8000))
+    # This way avoids the asyncio.run() issue
+    uvicorn.run(app, host="0.0.0.0", port=port, reload=True)
