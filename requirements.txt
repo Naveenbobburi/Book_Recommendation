@@ -11,3 +11,6 @@ gradio
 notebook
 ipywidgets
 langchain-huggingface
+langchain_text_splitters
+fastapi
+numpy

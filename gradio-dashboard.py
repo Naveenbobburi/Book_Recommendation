@@ -6,6 +6,9 @@ from langchain_community.document_loaders import TextLoader
 from langchain_openai import OpenAIEmbeddings
 from langchain_text_splitters import CharacterTextSplitter
 from langchain_chroma import Chroma
+from fastapi import FastAPI
+
+app = FastAPI()
 
 import gradio as gr
 from langchain_huggingface import HuggingFaceEmbeddings
