@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5c5ddc54-2ea0-40d5-bd1e-228344cb3e6b" name="Changes" comment="" />
+    <list default="true" id="5c5ddc54-2ea0-40d5-bd1e-228344cb3e6b" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -60,7 +62,7 @@
     </key>
   </component>
   <component name="RunManager">
-    <configuration name="gradio-dashboard" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="main" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Book-recommended-system" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -74,7 +76,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/gradio-dashboard.py" />
+      <option name="SCRIPT_NAME" value="C:\Users\navee\PycharmProjects\Book-recommended-system\main.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -85,7 +87,7 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.gradio-dashboard" />
+        <item itemvalue="Python.main" />
       </list>
     </recent_temporary>
   </component>
@@ -106,7 +108,7 @@
       <updated>1751781690675</updated>
       <workItem from="1751781692136" duration="12868000" />
       <workItem from="1751894828686" duration="11801000" />
-      <workItem from="1752062821588" duration="2221000" />
+      <workItem from="1752062821588" duration="2725000" />
     </task>
     <servers />
   </component>
